@@ -11,3 +11,5 @@ done
 
 >&2 echo "PostgreSQL is up - executing command"
 exec $cmd
+dos2unix wait-for-it.sh
+chmod +x wait-for-it.sh
